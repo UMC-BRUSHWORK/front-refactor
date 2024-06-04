@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import IMAGES from '../../../assets';
 import { useNavigate } from 'react-router-dom';
+import IMAGES from '../../../assets';
 
 export default function Logo() {
   const navigate = useNavigate();
