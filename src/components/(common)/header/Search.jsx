@@ -1,17 +1,13 @@
-import React from 'react';
+import React from 'react'
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 import IMAGES from '../../../assets';
 
-export default function Logo() {
-  const navigate = useNavigate();
+export default function Search() {
+    const navigate = useNavigate();
   return (
-      <Image
-        src={IMAGES.brushworkLogo}
-        alt='logo'
-        onClick={() => navigate('/')}
-      />
-  );
+    <Image src={IMAGES.search} alt='search' onClick={() => navigate('/')} />
+  )
 }
 
 const Image = styled.img`
