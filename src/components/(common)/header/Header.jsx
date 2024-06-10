@@ -8,6 +8,17 @@ import Back from './Back'
 export default function Header({type, title}) {
   let content;
   switch(type){
+    case 'search':
+      content = (
+        <>
+        <S.Right>
+          <Back />
+          <S.Input placeholder='검색어를 입력해 주세요.' />
+        </S.Right>
+        <Search />
+        </>
+      );
+      break;
     case 'title':
       content = (
         <S.Right>

@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   box-shadow: 0px 8px 6px -6px rgba(0,0,0,0.15);
 `
 
@@ -32,4 +33,9 @@ export const Title = styled.text`
   font: ${font.medium_19};
   color: black;
   line-height: 7vh;
+`
+
+export const Input = styled.input`
+  width: 20vw;
+  border: none;
 `
