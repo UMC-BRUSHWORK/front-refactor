@@ -6,7 +6,7 @@ import notif from './(common)/notif.svg'
 const IMAGES = {
   brushworkLogo,
   search,
-  arrowBack
+  arrowBack,
   notif
 };
 
