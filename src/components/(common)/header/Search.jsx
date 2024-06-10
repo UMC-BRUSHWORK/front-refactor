@@ -11,7 +11,7 @@ export default function Search() {
 }
 
 const Image = styled.img`
-  width: 11.1rem;
-  height: 3.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
   cursor: pointer;
 `;
