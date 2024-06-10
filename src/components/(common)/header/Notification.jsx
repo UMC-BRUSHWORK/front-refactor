@@ -11,6 +11,7 @@ export default function Notification() {
 }
 
 const Image = styled.img`
-  height: 3.4rem;
+  width: 2.4rem;
+  height: 2.4rem;
   cursor: pointer;
 `;
