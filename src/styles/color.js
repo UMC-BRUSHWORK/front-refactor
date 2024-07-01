@@ -14,6 +14,8 @@ const color = {
   grayscale_6c: '#6C6C6C',
   error: '#EA0000',
   grayscale_d8: '#D8D8D8',
+  kakao_yellow: '#FEE602',
+  naver_green: '#03C75A;',
 };
 
 export default color;
